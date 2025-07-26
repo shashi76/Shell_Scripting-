@@ -1,7 +1,7 @@
 #!/bin/bash
 select name in john mark tom 
 do 
-    case name in 
+    case $name in 
     mark) 
         eccho $name selected ;;
     john) 
@@ -9,7 +9,7 @@ do
     tom) 
         eccho $name selected ;;
     *)
-    echo "please elect the correct number"
+    echo "please select the correct number"
     esac 
-    
+
 done 
