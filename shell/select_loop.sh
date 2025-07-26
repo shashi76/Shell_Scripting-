@@ -5,11 +5,11 @@ select name in john mark tom
 do 
     case $name in 
     mark) 
-        eccho $name selected ;;
+        echo $name selected ;;
     john) 
-        eccho $name selected ;;
+        echo $name selected ;;
     tom) 
-        eccho $name selected ;;
+        echo $name selected ;;
     *)
     echo "please select the correct number"
     esac 
