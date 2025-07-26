@@ -1,4 +1,6 @@
 #!/bin/bash
+echo "Welcome to the select loop "
+
 select name in john mark tom 
 do 
     case $name in 
