@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Welcome to the select loop "
 
-select name in john mark tom 
+select name in john mark tom  mahi 
 do 
     case $name in 
     mark) 
@@ -9,6 +9,8 @@ do
     john) 
         echo $name selected ;;
     tom) 
+        echo $name selected ;;
+    mahi) 
         echo $name selected ;;
     *)
     echo "please select the correct number"
